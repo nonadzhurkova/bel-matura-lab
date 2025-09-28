@@ -1,0 +1,973 @@
+{
+  "metadata": {
+    "processed_date": "2025-09-28T16:12:52.675168",
+    "source": "spelling_generator",
+    "total_questions": 60,
+    "question_types": {
+      "type_1": 30,
+      "type_2": 30
+    }
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "ами",
+        "б": "Легенда",
+        "в": "квадратните скоби са само указание и не се поставят в самите примери",
+        "г": "[правилна форма], [обяснения, ако са необходими]"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "Легенда",
+      "correct_word": "квадратните скоби са само указание и не се поставят в самите примери"
+    },
+    {
+      "question_number": 2,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "[форма с грешка]",
+        "б": "[правилна форма], [обяснения, ако са необходими]",
+        "в": "ами",
+        "г": "абитуриент"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "[форма с грешка]",
+      "correct_word": "[правилна форма], [обяснения, ако са необходими]"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "ами",
+        "б": "а ми",
+        "в": "абсолютен",
+        "г": "абитуриент"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "а ми",
+      "correct_word": "ами"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "абсолютен",
+        "б": "абитуриент",
+        "в": "абитурент, абитюрент, абитюриент, абитьорент",
+        "г": "абориген"
+      },
+      "correct_answer": "В",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "абитурент, абитюрент, абитюриент, абитьорент",
+      "correct_word": "абитуриент"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "абсолутен",
+        "б": "абориген",
+        "в": "Афганистан",
+        "г": "абсолютен"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "абсолутен",
+      "correct_word": "абсолютен"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "абориген",
+        "б": "абуриген, абуруген",
+        "в": "Афганистан",
+        "г": "адрес, проверка: адресирам"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "абуриген, абуруген",
+      "correct_word": "абориген"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "адрес, проверка: адресирам",
+        "б": "Авганистан",
+        "в": "Афганистан",
+        "г": "Адриатика, адриатически"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "Авганистан",
+      "correct_word": "Афганистан"
+    },
+    {
+      "question_number": 8,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "адрез",
+        "б": "азиатец",
+        "в": "Адриатика, адриатически",
+        "г": "адрес, проверка: адресирам"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "адрез",
+      "correct_word": "адрес, проверка: адресирам"
+    },
+    {
+      "question_number": 9,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Адриятика, адриятически",
+        "б": "азиатец",
+        "в": "Адриатика, адриатически",
+        "г": "аерогара"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "Адриятика, адриятически",
+      "correct_word": "Адриатика, адриатически"
+    },
+    {
+      "question_number": 10,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "азиятец",
+        "б": "акумулатор",
+        "в": "азиатец",
+        "г": "аерогара"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "азиятец",
+      "correct_word": "азиатец"
+    },
+    {
+      "question_number": 11,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "аерогара",
+        "б": "акумулатор",
+        "в": "айрогара",
+        "г": "аксесоар"
+      },
+      "correct_answer": "В",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "айрогара",
+      "correct_word": "аерогара"
+    },
+    {
+      "question_number": 12,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "актуално",
+        "б": "акомолатор, акумолатор, акомулатор, аколоматор, аколуматор",
+        "в": "аксесоар",
+        "г": "акумулатор"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "акомолатор, акумолатор, акомулатор, аколоматор, аколуматор",
+      "correct_word": "акумулатор"
+    },
+    {
+      "question_number": 13,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "актуално",
+        "б": "аксесуар",
+        "в": "аксесоар",
+        "г": "амулет"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "аксесуар",
+      "correct_word": "аксесоар"
+    },
+    {
+      "question_number": 14,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "актоално",
+        "б": "актуално",
+        "в": "амулет",
+        "г": "анцуг"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "актоално",
+      "correct_word": "актуално"
+    },
+    {
+      "question_number": 15,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "апартамент",
+        "б": "анцуг",
+        "в": "амулет",
+        "г": "амолет"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "амолет",
+      "correct_word": "амулет"
+    },
+    {
+      "question_number": 16,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "апартамент",
+        "б": "анцуг",
+        "в": "аперитив",
+        "г": "анцук, анцунг"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "анцук, анцунг",
+      "correct_word": "анцуг"
+    },
+    {
+      "question_number": 17,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "аперитив",
+        "б": "апартамент",
+        "в": "абстрахирам",
+        "г": "апартамен"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "апартамен",
+      "correct_word": "апартамент"
+    },
+    {
+      "question_number": 18,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "аператив, аперетив",
+        "б": "а пък",
+        "в": "абстрахирам",
+        "г": "аперитив"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "аператив, аперетив",
+      "correct_word": "аперитив"
+    },
+    {
+      "question_number": 19,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "аргумент",
+        "б": "а пък",
+        "в": "апстрахирам",
+        "г": "абстрахирам"
+      },
+      "correct_answer": "В",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "апстрахирам",
+      "correct_word": "абстрахирам"
+    },
+    {
+      "question_number": 20,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "апък",
+        "б": "аргумент",
+        "в": "а пък",
+        "г": "аз – лично местоимение; „ас“ е вид карта или изтъкнат специалист, летец"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "апък",
+      "correct_word": "а пък"
+    },
+    {
+      "question_number": 21,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "асансьор",
+        "б": "аргумент",
+        "в": "аз – лично местоимение; „ас“ е вид карта или изтъкнат специалист, летец",
+        "г": "аргомент"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "аргомент",
+      "correct_word": "аргумент"
+    },
+    {
+      "question_number": 22,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "ас",
+        "б": "аз – лично местоимение; „ас“ е вид карта или изтъкнат специалист, летец",
+        "в": "асфалт",
+        "г": "асансьор"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "ас",
+      "correct_word": "аз – лично местоимение; „ас“ е вид карта или изтъкнат специалист, летец"
+    },
+    {
+      "question_number": 23,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "асфалтиран",
+        "б": "асансиор, асансйор",
+        "в": "асансьор",
+        "г": "асфалт"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "асансиор, асансйор",
+      "correct_word": "асансьор"
+    },
+    {
+      "question_number": 24,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "асфалтиран",
+        "б": "асфалт",
+        "в": "астигматизъм",
+        "г": "асвалт"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "асвалт",
+      "correct_word": "асфалт"
+    },
+    {
+      "question_number": 25,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "адски",
+        "б": "асфалтиран",
+        "в": "асвалтиран",
+        "г": "астигматизъм"
+      },
+      "correct_answer": "В",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "асвалтиран",
+      "correct_word": "асфалтиран"
+    },
+    {
+      "question_number": 26,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "адски",
+        "б": "астигматизъм",
+        "в": "бъзик, бъзици",
+        "г": "астегматизъм"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "астегматизъм",
+      "correct_word": "астигматизъм"
+    },
+    {
+      "question_number": 27,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "бъзик, бъзици",
+        "б": "атски, ацки, адцки",
+        "в": "адски",
+        "г": "бълха"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "атски, ацки, адцки",
+      "correct_word": "адски"
+    },
+    {
+      "question_number": 28,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Бангладеш",
+        "б": "базик, базици",
+        "в": "бълха",
+        "г": "бъзик, бъзици"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "базик, базици",
+      "correct_word": "бъзик, бъзици"
+    },
+    {
+      "question_number": 29,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "бълха",
+        "б": "барплот",
+        "в": "Бангладеш",
+        "г": "балха"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "балха",
+      "correct_word": "бълха"
+    },
+    {
+      "question_number": 30,
+      "question_text": "Коя е грешно написаната дума?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Бангладеж",
+        "б": "барплот",
+        "в": "батерии",
+        "г": "Бангладеш"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "Бангладеж",
+      "correct_word": "Бангладеш"
+    },
+    {
+      "question_number": 1,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "а ми",
+        "б": "[форма с грешка]",
+        "в": "квадратните скоби са само указание и не се поставят в самите примери",
+        "г": "Легенда"
+      },
+      "correct_answer": "В",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "Легенда",
+      "correct_word": "квадратните скоби са само указание и не се поставят в самите примери"
+    },
+    {
+      "question_number": 2,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "[правилна форма], [обяснения, ако са необходими]",
+        "б": "абитурент, абитюрент, абитюриент, абитьорент",
+        "в": "а ми",
+        "г": "[форма с грешка]"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "[форма с грешка]",
+      "correct_word": "[правилна форма], [обяснения, ако са необходими]"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "а ми",
+        "б": "ами",
+        "в": "абсолутен",
+        "г": "абитурент, абитюрент, абитюриент, абитьорент"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "а ми",
+      "correct_word": "ами"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "абуриген, абуруген",
+        "б": "абитуриент",
+        "в": "абсолутен",
+        "г": "абитурент, абитюрент, абитюриент, абитьорент"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "абитурент, абитюрент, абитюриент, абитьорент",
+      "correct_word": "абитуриент"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "абсолютен",
+        "б": "Авганистан",
+        "в": "абсолутен",
+        "г": "абуриген, абуруген"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "абсолутен",
+      "correct_word": "абсолютен"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Авганистан",
+        "б": "абориген",
+        "в": "абуриген, абуруген",
+        "г": "адрез"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "абуриген, абуруген",
+      "correct_word": "абориген"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Афганистан",
+        "б": "адрез",
+        "в": "Адриятика, адриятически",
+        "г": "Авганистан"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "Авганистан",
+      "correct_word": "Афганистан"
+    },
+    {
+      "question_number": 8,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Адриятика, адриятически",
+        "б": "азиятец",
+        "в": "адрез",
+        "г": "адрес, проверка: адресирам"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "адрез",
+      "correct_word": "адрес, проверка: адресирам"
+    },
+    {
+      "question_number": 9,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Адриятика, адриятически",
+        "б": "айрогара",
+        "в": "азиятец",
+        "г": "Адриатика, адриатически"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "Адриятика, адриятически",
+      "correct_word": "Адриатика, адриатически"
+    },
+    {
+      "question_number": 10,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "айрогара",
+        "б": "азиятец",
+        "в": "акомолатор, акумолатор, акомулатор, аколоматор, аколуматор",
+        "г": "азиатец"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "азиятец",
+      "correct_word": "азиатец"
+    },
+    {
+      "question_number": 11,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "аерогара",
+        "б": "аксесуар",
+        "в": "айрогара",
+        "г": "акомолатор, акумолатор, акомулатор, аколоматор, аколуматор"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "айрогара",
+      "correct_word": "аерогара"
+    },
+    {
+      "question_number": 12,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "акумулатор",
+        "б": "аксесуар",
+        "в": "акомолатор, акумолатор, акомулатор, аколоматор, аколуматор",
+        "г": "актоално"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "акомолатор, акумолатор, акомулатор, аколоматор, аколуматор",
+      "correct_word": "акумулатор"
+    },
+    {
+      "question_number": 13,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "амолет",
+        "б": "актоално",
+        "в": "аксесуар",
+        "г": "аксесоар"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "аксесуар",
+      "correct_word": "аксесоар"
+    },
+    {
+      "question_number": 14,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "амолет",
+        "б": "актуално",
+        "в": "актоално",
+        "г": "анцук, анцунг"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "актоално",
+      "correct_word": "актуално"
+    },
+    {
+      "question_number": 15,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "анцук, анцунг",
+        "б": "амулет",
+        "в": "амолет",
+        "г": "апартамен"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "амолет",
+      "correct_word": "амулет"
+    },
+    {
+      "question_number": 16,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "анцук, анцунг",
+        "б": "апартамен",
+        "в": "анцуг",
+        "г": "аператив, аперетив"
+      },
+      "correct_answer": "В",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "анцук, анцунг",
+      "correct_word": "анцуг"
+    },
+    {
+      "question_number": 17,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "апстрахирам",
+        "б": "апартамент",
+        "в": "аператив, аперетив",
+        "г": "апартамен"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "апартамен",
+      "correct_word": "апартамент"
+    },
+    {
+      "question_number": 18,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "аператив, аперетив",
+        "б": "апстрахирам",
+        "в": "апък",
+        "г": "аперитив"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "аператив, аперетив",
+      "correct_word": "аперитив"
+    },
+    {
+      "question_number": 19,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "аргомент",
+        "б": "апстрахирам",
+        "в": "абстрахирам",
+        "г": "апък"
+      },
+      "correct_answer": "В",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "апстрахирам",
+      "correct_word": "абстрахирам"
+    },
+    {
+      "question_number": 20,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "апък",
+        "б": "а пък",
+        "в": "ас",
+        "г": "аргомент"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "апък",
+      "correct_word": "а пък"
+    },
+    {
+      "question_number": 21,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "аргомент",
+        "б": "асансиор, асансйор",
+        "в": "аргумент",
+        "г": "ас"
+      },
+      "correct_answer": "В",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "аргомент",
+      "correct_word": "аргумент"
+    },
+    {
+      "question_number": 22,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "ас",
+        "б": "асансиор, асансйор",
+        "в": "аз – лично местоимение; „ас“ е вид карта или изтъкнат специалист, летец",
+        "г": "асвалт"
+      },
+      "correct_answer": "В",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "ас",
+      "correct_word": "аз – лично местоимение; „ас“ е вид карта или изтъкнат специалист, летец"
+    },
+    {
+      "question_number": 23,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "асансиор, асансйор",
+        "б": "асансьор",
+        "в": "асвалтиран",
+        "г": "асвалт"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "асансиор, асансйор",
+      "correct_word": "асансьор"
+    },
+    {
+      "question_number": 24,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "асвалтиран",
+        "б": "асвалт",
+        "в": "астегматизъм",
+        "г": "асфалт"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "асвалт",
+      "correct_word": "асфалт"
+    },
+    {
+      "question_number": 25,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "астегматизъм",
+        "б": "асфалтиран",
+        "в": "асвалтиран",
+        "г": "атски, ацки, адцки"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "асвалтиран",
+      "correct_word": "асфалтиран"
+    },
+    {
+      "question_number": 26,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "астигматизъм",
+        "б": "атски, ацки, адцки",
+        "в": "астегматизъм",
+        "г": "базик, базици"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "астегматизъм",
+      "correct_word": "астигматизъм"
+    },
+    {
+      "question_number": 27,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "адски",
+        "б": "базик, базици",
+        "в": "балха",
+        "г": "атски, ацки, адцки"
+      },
+      "correct_answer": "А",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "атски, ацки, адцки",
+      "correct_word": "адски"
+    },
+    {
+      "question_number": 28,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "балха",
+        "б": "бъзик, бъзици",
+        "в": "базик, базици",
+        "г": "Бангладеж"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "базик, базици",
+      "correct_word": "бъзик, бъзици"
+    },
+    {
+      "question_number": 29,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Бангладеж",
+        "б": "бълха",
+        "в": "балха",
+        "г": "барплод"
+      },
+      "correct_answer": "Б",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "балха",
+      "correct_word": "бълха"
+    },
+    {
+      "question_number": 30,
+      "question_text": "Изберете правилно написаната дума:",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Бангладеж",
+        "б": "барплод",
+        "в": "батерий",
+        "г": "Бангладеш"
+      },
+      "correct_answer": "Г",
+      "source": "spelling_generator",
+      "category": "правопис",
+      "wrong_word": "Бангладеж",
+      "correct_word": "Бангладеш"
+    }
+  ]
+}
