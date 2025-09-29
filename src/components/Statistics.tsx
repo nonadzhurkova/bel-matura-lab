@@ -13,8 +13,8 @@ export default function Statistics({ totalQuestions, filteredQuestions, question
   const spellingCount = questions.filter(q => q.source === 'spelling').length;
 
   return (
-    <div className="bg-slate-800/50 backdrop-blur-sm border-t border-slate-700 py-4 px-4 sm:px-6">
-      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 sm:gap-0 text-sm text-gray-200">
+    <div className="bg-slate-800/30 backdrop-blur-sm border-t border-slate-700 py-2 px-4 sm:px-6">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 sm:gap-0 text-xs text-gray-300">
         {/* Main stats - always visible */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-6">
           <span className="flex items-center gap-1">

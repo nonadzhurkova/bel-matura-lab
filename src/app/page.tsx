@@ -101,12 +101,12 @@ export default function Home() {
   const currentQuestion = filteredQuestions[currentQuestionIndex];
 
   return (
-    <div className="h-screen relative overflow-hidden" style={{ background: '#0a012c', height: '100vh' }}>
+    <div className="min-h-screen relative" style={{ background: '#0a012c', minHeight: '100vh' }}>
       {/* Dark navy with purple radial gradient background */}
       <div className="absolute inset-0 pointer-events-none" style={{ 
         backgroundImage: 'radial-gradient(circle, rgba(38,8,95,0.8156862745), rgba(17,3,49,0.8078431373))' 
       }}></div>
-      <div className="flex relative z-10 h-full">
+      <div className="flex relative z-10">
 
         {/* Sidebar Overlay */}
         {isMobileSidebarOpen && (
@@ -159,7 +159,7 @@ export default function Home() {
         )}
 
         {/* Main Content */}
-        <div className="flex-1 flex flex-col h-full">
+        <div className="flex-1 flex flex-col min-h-screen">
           {/* Header */}
           <div className="bg-slate-900/80 backdrop-blur-sm border-b border-slate-800 shadow-lg px-6 py-4">
             <div className="flex items-center justify-between">
@@ -195,9 +195,9 @@ export default function Home() {
           </div>
 
           {/* Content */}
-          <div className="flex-1 p-6 flex flex-col min-h-0">
+          <div className="flex-1 p-6">
             {displayMode === 'single' ? (
-              <div className="flex-1 flex flex-col min-h-0">
+              <div>
                 <ProgressBar current={currentQuestionIndex} total={filteredQuestions.length} />
                 
                 <Navigation
@@ -211,7 +211,7 @@ export default function Home() {
                   maturaDate={currentQuestion?.source_file?.includes('2025') ? 'Май 2025' : currentQuestion?.source_file?.includes('2024') ? 'Август 2024' : undefined}
                 />
 
-                <div className="flex-1 mt-6 overflow-y-auto scrollbar-hide">
+                <div className="mt-6">
                   <QuestionCard
                   question={currentQuestion}
                   questionIndex={currentQuestionIndex}
