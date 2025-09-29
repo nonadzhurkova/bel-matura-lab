@@ -46,7 +46,7 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
     
     const relatedTexts: TextData[] = [];
     Object.values(allTextsData).forEach(textData => {
-      if (textData.related_questions.includes(question.question_number)) {
+      if (textData.related_questions.includes(parseInt(question.question_number))) {
         relatedTexts.push(textData);
       }
     });
