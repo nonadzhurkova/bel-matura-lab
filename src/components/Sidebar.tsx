@@ -23,7 +23,12 @@ export default function Sidebar({
     <div className="space-y-6">
       {/* Filters */}
       <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
-        <h3 className="text-lg font-semibold text-gray-800 mb-4">🔧 Филтри</h3>
+        <div className="flex items-center gap-2 mb-4">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46 22,3"/>
+          </svg>
+          <h3 className="text-lg font-semibold text-gray-800">Филтри</h3>
+        </div>
         
         <div className="space-y-4">
           <div>
@@ -62,7 +67,15 @@ export default function Sidebar({
 
       {/* Display Mode */}
       <div className="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
-        <h3 className="text-lg font-semibold text-gray-800 mb-4">📋 Режим на показване</h3>
+        <div className="flex items-center gap-2 mb-4">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <line x1="9" y1="9" x2="15" y2="9"/>
+            <line x1="9" y1="13" x2="15" y2="13"/>
+            <line x1="9" y1="17" x2="15" y2="17"/>
+          </svg>
+          <h3 className="text-lg font-semibold text-gray-800">Режим на показване</h3>
+        </div>
         
         <div className="space-y-2">
           <label className="flex items-center gap-2 cursor-pointer">

@@ -13,12 +13,9 @@ export default function ProgressBar({ current, total }: ProgressBarProps) {
     <div className="mb-6">
       <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
         <div
-          className="bg-gradient-to-r from-blue-500 to-purple-600 h-full transition-all duration-500 ease-out rounded-full"
+          className="bg-purple-500 h-full transition-all duration-500 ease-out rounded-full"
           style={{ width: `${percentage}%` }}
         />
-      </div>
-      <div className="text-center text-sm text-gray-600 font-medium mt-2">
-        {percentage}% завършено
       </div>
     </div>
   );

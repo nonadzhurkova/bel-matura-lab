@@ -1,7 +1,8 @@
-import { Question, QuestionsData } from '@/types';
+import { Question, QuestionsData, TextData } from '@/types';
 
-export async function loadQuestions(): Promise<Question[]> {
+export async function loadQuestions(): Promise<{questions: Question[], textsData: {[key: string]: TextData}}> {
   const allQuestions: Question[] = [];
+  const allTextsData: {[key: string]: TextData} = {};
   
   // Load real matura files
   const realMaturaFiles = [
@@ -18,6 +19,11 @@ export async function loadQuestions(): Promise<Question[]> {
           question.source = 'real_matura';
           question.source_file = filePath;
           allQuestions.push(question);
+        }
+        
+        // Load texts data from metadata
+        if (data.metadata?.texts) {
+          Object.assign(allTextsData, data.metadata.texts);
         }
       }
     } catch (error) {
@@ -40,7 +46,7 @@ export async function loadQuestions(): Promise<Question[]> {
     console.error('Error loading spelling questions:', error);
   }
   
-  return allQuestions;
+  return {questions: allQuestions, textsData: allTextsData};
 }
 
 export function filterQuestions(

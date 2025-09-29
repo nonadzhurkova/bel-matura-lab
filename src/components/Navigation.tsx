@@ -7,6 +7,8 @@ interface NavigationProps {
   onShuffle: () => void;
   canGoPrevious: boolean;
   canGoNext: boolean;
+  questionNumber?: string;
+  maturaDate?: string;
 }
 
 export default function Navigation({
@@ -15,14 +17,28 @@ export default function Navigation({
   onRandom,
   onShuffle,
   canGoPrevious,
-  canGoNext
+  canGoNext,
+  questionNumber,
+  maturaDate
 }: NavigationProps) {
   return (
-    <div className="flex justify-center gap-2 mt-4">
+    <div className="flex items-center justify-between mt-4">
+      {/* Question info on the left */}
+      <div className="flex items-center gap-2 text-sm text-gray-600">
+        {questionNumber && (
+          <span className="font-medium">Въпрос {questionNumber}</span>
+        )}
+        {maturaDate && (
+          <span className="text-gray-500">• {maturaDate}</span>
+        )}
+      </div>
+      
+      {/* Navigation buttons in the center */}
+      <div className="flex gap-2">
       <button
         onClick={onPrevious}
         disabled={!canGoPrevious}
-        className="bg-purple-100 hover:bg-purple-200 text-purple-700 p-2 rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+        className="bg-blue-100 hover:bg-blue-200 text-blue-700 p-2 rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         title="Предишен"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -32,7 +48,7 @@ export default function Navigation({
       
       <button
         onClick={onRandom}
-        className="bg-purple-100 hover:bg-purple-200 text-purple-700 p-2 rounded-md transition-colors"
+        className="bg-blue-100 hover:bg-blue-200 text-blue-700 p-2 rounded-md transition-colors"
         title="Случаен"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -45,7 +61,7 @@ export default function Navigation({
       
       <button
         onClick={onShuffle}
-        className="bg-purple-100 hover:bg-purple-200 text-purple-700 p-2 rounded-md transition-colors"
+        className="bg-blue-100 hover:bg-blue-200 text-blue-700 p-2 rounded-md transition-colors"
         title="Разбъркай"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -57,13 +73,14 @@ export default function Navigation({
       <button
         onClick={onNext}
         disabled={!canGoNext}
-        className="bg-purple-100 hover:bg-purple-200 text-purple-700 p-2 rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+        className="bg-blue-100 hover:bg-blue-200 text-blue-700 p-2 rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
         title="Следващ"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="m9 18 6-6-6-6"/>
         </svg>
       </button>
+      </div>
     </div>
   );
 }
