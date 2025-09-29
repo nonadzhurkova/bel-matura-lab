@@ -24,12 +24,12 @@ export default function Navigation({
   return (
     <div className="flex items-center justify-between mt-4">
       {/* Question info on the left */}
-      <div className="flex items-center gap-2 text-sm text-gray-600">
+      <div className="flex items-center gap-2 text-sm text-white">
         {questionNumber && (
-          <span className="font-medium">Въпрос {questionNumber}</span>
+          <span className="font-semibold text-purple-200">Въпрос {questionNumber}</span>
         )}
         {maturaDate && (
-          <span className="text-gray-500">• {maturaDate}</span>
+          <span className="text-gray-300">• {maturaDate}</span>
         )}
       </div>
       
