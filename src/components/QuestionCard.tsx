@@ -107,17 +107,6 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
                   : 'bg-gray-50 border-gray-300 hover:bg-gray-100 hover:border-gray-400'
               }`}>
                 <div className="flex items-center gap-3 flex-1">
-                  <span className={`font-bold w-8 h-8 text-white rounded-full flex items-center justify-center text-sm ${
-                    isCorrectAnswer 
-                      ? 'bg-green-500' 
-                      : isSelectedWrong
-                      ? 'bg-red-500'
-                      : isSelected
-                      ? 'bg-purple-500'
-                      : 'bg-gray-400'
-                  }`}>
-                    {key.toUpperCase()}
-                  </span>
                   <span className={`text-base whitespace-pre-line ${
                     isCorrectAnswer 
                       ? 'text-green-700 font-semibold' 
