@@ -56,9 +56,9 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
   const relatedTexts = getRelatedTexts();
 
   return (
-    <div className="bg-white/10 backdrop-blur-md rounded-lg shadow-lg p-4 mb-4 border border-white/20">
+    <div className="bg-transparent p-4 mb-4">
       {/* Question Counter */}
-      <div className="text-sm text-purple-200 mb-3">
+      <div className="text-sm text-purple-300 mb-3">
         Въпрос {questionIndex + 1} от {totalQuestions}
       </div>
 
@@ -104,7 +104,7 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
                   ? 'bg-red-50 border-red-400'
                   : isSelected
                   ? 'bg-purple-50 border-purple-400'
-                  : 'bg-white border-gray-200 hover:border-gray-300'
+                  : 'bg-gray-50 border-gray-300 hover:bg-gray-100 hover:border-gray-400'
               }`}>
                 <div className="flex items-center gap-3 flex-1">
                   <span className={`font-bold w-8 h-8 text-white rounded-full flex items-center justify-center text-sm ${

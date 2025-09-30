@@ -221,15 +221,19 @@ export default function Home() {
                 </div>
               </div>
             ) : (
-              <div className="space-y-6">
+              <div className="space-y-0">
                 {filteredQuestions.map((question, index) => (
-                  <QuestionCard
-                    key={`${question.question_number}-${index}`}
-                    question={question}
-                    questionIndex={index}
-                    totalQuestions={filteredQuestions.length}
-                    allTextsData={textsData}
-                  />
+                  <div key={`${question.question_number}-${index}`}>
+                    <QuestionCard
+                      question={question}
+                      questionIndex={index}
+                      totalQuestions={filteredQuestions.length}
+                      allTextsData={textsData}
+                    />
+                    {index < filteredQuestions.length - 1 && (
+                      <div className="border-b border-purple-300 my-6"></div>
+                    )}
+                  </div>
                 ))}
               </div>
             )}
