@@ -65,8 +65,14 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
     <div className="bg-transparent mb-4">
 
       {/* Question Text */}
-      <div className="text-base text-gray-400 font-semibold leading-relaxed whitespace-pre-line mb-4">
+      <div className="text-base text-gray-400 font-semibold leading-relaxed whitespace-pre-line mb-2">
         {question.question_text}
+      </div>
+      
+      {/* Question info */}
+      <div className="flex items-center gap-1 text-xs text-gray-500 mb-4">
+        <span className="text-xs" style={{fontSize: '10px'}}>Въпрос {question.question_number}</span>
+        <span className="text-xs" style={{fontSize: '10px'}}>• {question.metadata?.exam_month} {question.metadata?.exam_year}</span>
       </div>
 
       {/* Question Example */}
@@ -175,9 +181,7 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
       )}
 
       {/* Action Buttons */}
-      <div className="flex items-center justify-between">
-        {/* Buttons on the left */}
-        <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3">
         {relatedTexts.length > 0 && (
           <button
             onClick={handleToggleTexts}
@@ -204,13 +208,6 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
           </svg>
           Покажи отговора
         </button>
-        </div>
-        
-        {/* Question info on the right */}
-        <div className="flex items-center gap-1 text-xs text-gray-500">
-          <span>Въпрос {question.question_number}</span>
-          <span>• {question.metadata?.exam_month} {question.metadata?.exam_year}</span>
-        </div>
       </div>
 
       {/* Show Answer Result for Text Input Questions and Matching Questions */}
