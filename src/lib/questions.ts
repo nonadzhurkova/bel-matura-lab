@@ -6,6 +6,7 @@ export async function loadQuestions(): Promise<{questions: Question[], textsData
   
   // Load real matura files
   const realMaturaFiles = [
+    '/data/matura-2023_line_by_line.json',
     '/data/matura-2025_line_by_line.json',
     '/data/matura-2025-08_line_by_line.json'
   ];
@@ -18,12 +19,20 @@ export async function loadQuestions(): Promise<{questions: Question[], textsData
         for (const question of data.questions) {
           question.source = 'real_matura';
           question.source_file = filePath;
+          question.metadata = {
+            exam_date: data.metadata.exam_date,
+            exam_year: data.metadata.exam_year,
+            exam_month: data.metadata.exam_month
+          };
           allQuestions.push(question);
         }
         
-        // Load texts data from metadata
+        // Load texts data from metadata with unique keys
         if (data.metadata?.texts) {
-          Object.assign(allTextsData, data.metadata.texts);
+          const fileKey = filePath.replace('/data/', '').replace('.json', '');
+          Object.entries(data.metadata.texts).forEach(([textKey, textData]) => {
+            allTextsData[`${fileKey}_${textKey}`] = textData;
+          });
         }
       }
     } catch (error) {

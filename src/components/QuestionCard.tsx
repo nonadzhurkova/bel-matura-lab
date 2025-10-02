@@ -45,32 +45,34 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
     if (!allTextsData) return [];
     
     const relatedTexts: TextData[] = [];
-    Object.values(allTextsData).forEach(textData => {
-      if (textData.related_questions.includes(parseInt(question.question_number))) {
+    
+    // Get the file key from the question's source_file
+    const fileKey = question.source_file?.replace('/data/', '').replace('.json', '');
+    
+    Object.entries(allTextsData).forEach(([textKey, textData]) => {
+      // Check if this text belongs to the same file as the question
+      if (textKey.startsWith(`${fileKey}_`) && textData.related_questions.includes(question.question_number)) {
         relatedTexts.push(textData);
       }
     });
+    
     return relatedTexts;
   };
 
   const relatedTexts = getRelatedTexts();
 
   return (
-    <div className="bg-transparent p-4 mb-4">
-      {/* Question Counter */}
-      <div className="text-sm text-purple-300 mb-3">
-        Въпрос {questionIndex + 1} от {totalQuestions}
-      </div>
+    <div className="bg-transparent mb-4">
 
       {/* Question Text */}
-      <div className="text-base text-white font-semibold leading-relaxed whitespace-pre-line mb-4">
+      <div className="text-base text-gray-400 font-semibold leading-relaxed whitespace-pre-line mb-4">
         {question.question_text}
       </div>
 
       {/* Question Example */}
       {question.question_text_example && (
-        <div className="mb-6 p-4 bg-blue-50 border-l-4 border-blue-600 rounded-r-lg shadow-sm">
-          <div className="text-sm text-gray-800 whitespace-pre-line leading-relaxed italic">
+        <div className="mb-6 p-4 bg-gray-300 border-l-4 border-purple-500 rounded-r-lg shadow-sm">
+          <div className="text-sm text-black whitespace-pre-line leading-relaxed italic">
             {question.question_text_example}
           </div>
         </div>
@@ -97,24 +99,24 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
             
             const isSelected = selectedAnswer === key;
             return (
-              <label key={key} className={`flex items-center justify-between p-4 rounded-xl cursor-pointer transition-all duration-200 border ${
+              <label key={key} className={`flex items-center justify-between p-3 sm:p-4 rounded-xl cursor-pointer transition-all duration-200 border ${
                 isCorrectAnswer 
-                  ? 'bg-green-50 border-green-400' 
+                  ? 'bg-green-500/20 border-green-400' 
                   : isSelectedWrong
-                  ? 'bg-red-50 border-red-400'
+                  ? 'bg-red-500/20 border-red-400'
                   : isSelected
-                  ? 'bg-purple-50 border-purple-400'
-                  : 'bg-gray-50 border-gray-300 hover:bg-gray-100 hover:border-gray-400'
+                  ? 'bg-purple-500/20 border-purple-400'
+                  : 'bg-white/20 border-white/30 hover:bg-white/30 hover:border-white/40'
               }`}>
                 <div className="flex items-center gap-3 flex-1">
                   <span className={`text-base whitespace-pre-line ${
                     isCorrectAnswer 
-                      ? 'text-green-700 font-semibold' 
+                      ? 'text-green-200 font-semibold' 
                       : isSelectedWrong
-                      ? 'text-red-700 font-semibold'
+                      ? 'text-red-200 font-semibold'
                       : isSelected
-                      ? 'text-purple-700 font-medium'
-                      : 'text-gray-700'
+                      ? 'text-purple-200 font-medium'
+                      : 'text-white'
                   }`}>
                     {value}
                   </span>
@@ -130,8 +132,8 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
                   />
                   <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center transition-all duration-200 ${
                     selectedAnswer === key
-                      ? 'bg-purple-500 border-purple-500'
-                      : 'bg-white border-gray-300 hover:border-gray-400'
+                      ? 'bg-purple-500 border-purple-400'
+                      : 'bg-white/20 border-white/40 hover:border-white/60'
                   }`}>
                     {selectedAnswer === key && (
                       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
@@ -173,7 +175,9 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
       )}
 
       {/* Action Buttons */}
-      <div className="flex items-center gap-3">
+      <div className="flex items-center justify-between">
+        {/* Buttons on the left */}
+        <div className="flex items-center gap-3">
         {relatedTexts.length > 0 && (
           <button
             onClick={handleToggleTexts}
@@ -187,8 +191,9 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
               <polyline points="10,9 9,9 8,9"/>
             </svg>
             {showTexts ? 'Скрий текстове' : 'Покажи текстове'}
-          </button>
+        </button>
         )}
+        
         <button
           onClick={handleShowAnswer}
           className="bg-purple-600 text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-purple-700 transition-all duration-200 transform hover:scale-105 flex items-center gap-2 border border-purple-400 shadow-lg shadow-purple-500/25"
@@ -199,6 +204,13 @@ export default function QuestionCard({ question, questionIndex, totalQuestions, 
           </svg>
           Покажи отговора
         </button>
+        </div>
+        
+        {/* Question info on the right */}
+        <div className="flex items-center gap-1 text-xs text-gray-500">
+          <span>Въпрос {question.question_number}</span>
+          <span>• {question.metadata?.exam_month} {question.metadata?.exam_year}</span>
+        </div>
       </div>
 
       {/* Show Answer Result for Text Input Questions and Matching Questions */}

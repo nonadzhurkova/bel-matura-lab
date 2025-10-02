@@ -161,11 +161,11 @@ export default function Home() {
         {/* Main Content */}
         <div className="flex-1 flex flex-col min-h-screen">
           {/* Header */}
-          <div className="bg-slate-900/80 backdrop-blur-sm border-b border-slate-800 shadow-lg px-6 py-4">
+          <div className="bg-slate-900/80 backdrop-blur-sm border-b border-slate-800 shadow-lg px-3 py-3 sm:px-6 sm:py-4">
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <div className="flex items-center gap-2 sm:gap-3">
+                <div className="w-6 h-6 sm:w-8 sm:h-8 bg-purple-600 rounded-lg flex items-center justify-center">
+                  <svg width="16" height="16" className="sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M9 12l2 2 4-4"/>
                     <path d="M21 12c-1 0-3-1-3-3s2-3 3-3 3 1 3 3-2 3-3 3"/>
                     <path d="M3 12c1 0 3-1 3-3s-2-3-3-3-3 1-3 3 2 3 3 3"/>
@@ -174,8 +174,8 @@ export default function Home() {
                   </svg>
                 </div>
                 <div>
-                  <h1 className="text-xl font-bold text-white">БЕЛ Quiz</h1>
-                  <p className="text-sm text-slate-300">Matura Lab</p>
+                  <h1 className="text-lg sm:text-xl font-bold text-white">БЕЛ Quiz</h1>
+                  <p className="text-xs sm:text-sm text-slate-300">Matura Lab</p>
                 </div>
               </div>
               
@@ -195,7 +195,7 @@ export default function Home() {
           </div>
 
           {/* Content */}
-          <div className="flex-1 p-6">
+          <div className="flex-1 p-6 max-w-6xl mx-auto w-full">
             {displayMode === 'single' ? (
               <div>
                 <ProgressBar current={currentQuestionIndex} total={filteredQuestions.length} />
@@ -207,8 +207,6 @@ export default function Home() {
                   onShuffle={handleShuffle}
                   canGoPrevious={currentQuestionIndex > 0}
                   canGoNext={currentQuestionIndex < filteredQuestions.length - 1}
-                  questionNumber={currentQuestion?.question_number}
-                  maturaDate={currentQuestion?.source_file?.includes('2025') ? 'Май 2025' : currentQuestion?.source_file?.includes('2024') ? 'Август 2024' : undefined}
                 />
 
                 <div className="mt-6">

@@ -1,5 +1,5 @@
 export interface Question {
-  question_number: string;
+  question_number: number;
   question_text: string;
   question_text_example?: string;
   question_type: 'multiple_choice' | 'free_text' | 'multiline_text' | 'matching';
@@ -7,6 +7,11 @@ export interface Question {
   correct_answer: string;
   source: 'real_matura' | 'spelling';
   source_file?: string;
+  metadata?: {
+    exam_date: string;
+    exam_year: string;
+    exam_month: string;
+  };
 }
 
 export interface TextData {
