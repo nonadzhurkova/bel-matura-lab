@@ -37,4 +37,5 @@ export interface QuestionsData {
 
 export type SourceFilter = 'all' | 'real_matura' | 'spelling';
 export type QuestionTypeFilter = 'all' | 'multiple_choice' | 'free_text' | 'multiline_text' | 'matching';
+export type MaturaFilter = 'all' | 'matura-2023' | 'matura-2023-05' | 'matura-2025' | 'matura-2025-08';
 export type DisplayMode = 'single' | 'all';

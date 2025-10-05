@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Question, SourceFilter, QuestionTypeFilter, DisplayMode, TextData } from '@/types';
+import { Question, SourceFilter, QuestionTypeFilter, MaturaFilter, DisplayMode, TextData } from '@/types';
 import { loadQuestions, filterQuestions } from '@/lib/questions';
 import QuestionCard from '@/components/QuestionCard';
 import ProgressBar from '@/components/ProgressBar';
@@ -15,6 +15,7 @@ export default function Home() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [sourceFilter, setSourceFilter] = useState<SourceFilter>('real_matura');
   const [questionTypeFilter, setQuestionTypeFilter] = useState<QuestionTypeFilter>('all');
+  const [maturaFilter, setMaturaFilter] = useState<MaturaFilter>('all');
   const [displayMode, setDisplayMode] = useState<DisplayMode>('single');
   const [loading, setLoading] = useState(true);
   const [isMobileSidebarOpen, setIsMobileSidebarOpen] = useState(false);
@@ -38,10 +39,10 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const filtered = filterQuestions(questions, sourceFilter, questionTypeFilter);
+    const filtered = filterQuestions(questions, sourceFilter, questionTypeFilter, maturaFilter);
     setFilteredQuestions(filtered);
     setCurrentQuestionIndex(0);
-  }, [questions, sourceFilter, questionTypeFilter]);
+  }, [questions, sourceFilter, questionTypeFilter, maturaFilter]);
 
   const handlePrevious = () => {
     if (currentQuestionIndex > 0) {
@@ -66,15 +67,6 @@ export default function Home() {
     setCurrentQuestionIndex(0);
   };
 
-  // Helper function to get text data for a question
-  const getTextDataForQuestion = (questionNumber: number): TextData | undefined => {
-    for (const [key, textData] of Object.entries(textsData)) {
-      if (textData.related_questions.includes(questionNumber)) {
-        return textData;
-      }
-    }
-    return undefined;
-  };
 
   if (loading) {
     return (
@@ -118,14 +110,17 @@ export default function Home() {
             />
             
             {/* Sidebar */}
-            <div className={`relative z-10 w-80 max-w-sm bg-white h-full shadow-xl transform transition-transform duration-300 ease-out ${
+            <div className={`relative z-10 w-80 max-w-sm h-full shadow-xl transform transition-transform duration-300 ease-out ${
               isMobileSidebarOpen ? 'translate-x-0' : 'translate-x-full'
-            }`}>
-              <div className="flex items-center justify-between p-4 border-b border-gray-200">
-                <h2 className="text-lg font-semibold text-gray-800">Филтри</h2>
+            }`} style={{ 
+              background: '#0a012c',
+              backgroundImage: 'radial-gradient(circle, rgba(38,8,95,0.8156862745), rgba(17,3,49,0.8078431373))'
+            }}>
+              <div className="flex items-center justify-between p-4 border-b border-slate-700">
+                <h2 className="text-lg font-semibold text-white">Филтри</h2>
                 <button
                   onClick={() => setIsMobileSidebarOpen(false)}
-                  className="p-2 rounded-md hover:bg-gray-100 transition-colors"
+                  className="p-2 rounded-md hover:bg-slate-700/50 transition-colors text-slate-300"
                   aria-label="Затвори меню"
                 >
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -139,6 +134,7 @@ export default function Home() {
                 <Sidebar
                   sourceFilter={sourceFilter}
                   questionTypeFilter={questionTypeFilter}
+                  maturaFilter={maturaFilter}
                   displayMode={displayMode}
                   onSourceFilterChange={(filter) => {
                     setSourceFilter(filter);
@@ -146,6 +142,10 @@ export default function Home() {
                   }}
                   onQuestionTypeFilterChange={(filter) => {
                     setQuestionTypeFilter(filter);
+                    setIsMobileSidebarOpen(false);
+                  }}
+                  onMaturaFilterChange={(filter) => {
+                    setMaturaFilter(filter);
                     setIsMobileSidebarOpen(false);
                   }}
                   onDisplayModeChange={(mode) => {

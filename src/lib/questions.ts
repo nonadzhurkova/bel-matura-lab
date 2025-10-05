@@ -1,4 +1,4 @@
-import { Question, QuestionsData, TextData } from '@/types';
+import { Question, QuestionsData, TextData, MaturaFilter } from '@/types';
 
 export async function loadQuestions(): Promise<{questions: Question[], textsData: {[key: string]: TextData}}> {
   const allQuestions: Question[] = [];
@@ -7,6 +7,7 @@ export async function loadQuestions(): Promise<{questions: Question[], textsData
   // Load real matura files
   const realMaturaFiles = [
     '/data/matura-2023_line_by_line.json',
+    '/data/matura-2023-05_line_by_line.json',
     '/data/matura-2025_line_by_line.json',
     '/data/matura-2025-08_line_by_line.json'
   ];
@@ -61,7 +62,8 @@ export async function loadQuestions(): Promise<{questions: Question[], textsData
 export function filterQuestions(
   questions: Question[],
   sourceFilter: string,
-  questionTypeFilter: string
+  questionTypeFilter: string,
+  maturaFilter: MaturaFilter = 'all'
 ): Question[] {
   let filtered = [...questions];
   
@@ -79,6 +81,24 @@ export function filterQuestions(
     filtered = filtered.filter(q => q.question_type === 'multiline_text');
   } else if (questionTypeFilter === 'matching') {
     filtered = filtered.filter(q => q.question_type === 'matching');
+  }
+  
+  // Apply matura filter
+  if (maturaFilter !== 'all') {
+    filtered = filtered.filter(q => {
+      if (q.source !== 'real_matura') return false;
+      const fileKey = q.source_file?.replace('/data/', '').replace('.json', '');
+      
+      // Map file keys to matura filter values
+      const fileKeyToMaturaFilter: {[key: string]: string} = {
+        'matura-2023_line_by_line': 'matura-2023',
+        'matura-2023-05_line_by_line': 'matura-2023-05',
+        'matura-2025_line_by_line': 'matura-2025',
+        'matura-2025-08_line_by_line': 'matura-2025-08'
+      };
+      
+      return fileKeyToMaturaFilter[fileKey || ''] === maturaFilter;
+    });
   }
   
   return filtered;
