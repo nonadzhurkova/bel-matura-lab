@@ -41,21 +41,6 @@ export async function loadQuestions(): Promise<{questions: Question[], textsData
     }
   }
   
-  // Load spelling questions
-  try {
-    const response = await fetch('/data/improved_spelling_questions.json');
-    if (response.ok) {
-      const data: QuestionsData = await response.json();
-      for (const question of data.questions) {
-        question.source = 'spelling';
-        question.source_file = '/data/improved_spelling_questions.json';
-        allQuestions.push(question);
-      }
-    }
-  } catch (error) {
-    console.error('Error loading spelling questions:', error);
-  }
-  
   return {questions: allQuestions, textsData: allTextsData};
 }
 
@@ -69,8 +54,6 @@ export function filterQuestions(
   
   if (sourceFilter === 'real_matura') {
     filtered = filtered.filter(q => q.source === 'real_matura');
-  } else if (sourceFilter === 'spelling') {
-    filtered = filtered.filter(q => q.source === 'spelling');
   }
   
   if (questionTypeFilter === 'multiple_choice') {

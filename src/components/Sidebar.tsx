@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { SourceFilter, QuestionTypeFilter, MaturaFilter, DisplayMode } from '@/types';
 
 interface SidebarProps {
@@ -46,7 +47,6 @@ export default function Sidebar({
             >
               <option value="all" className="bg-slate-800 text-white">Всички</option>
               <option value="real_matura" className="bg-slate-800 text-white">Реални матури</option>
-              <option value="spelling" className="bg-slate-800 text-white">Правопис</option>
             </select>
           </div>
           
@@ -123,6 +123,20 @@ export default function Sidebar({
             <span className="text-sm font-medium text-slate-300">Всички въпроси</span>
           </label>
         </div>
+      </div>
+
+      {/* За нас Link */}
+      <div className="pt-4 border-t border-slate-700">
+        <Link
+          href="/za-nas"
+          className="flex items-center gap-2 p-3 rounded-lg hover:bg-slate-700/50 transition-colors duration-200 text-slate-300 hover:text-white group"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-purple-400 group-hover:text-purple-300">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+          <span className="text-sm font-medium">За нас</span>
+        </Link>
       </div>
     </div>
   );
