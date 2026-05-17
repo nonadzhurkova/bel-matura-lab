@@ -64,6 +64,7 @@ export default function Sidebar({
               <option value="matura-2023-05" className="bg-slate-800 text-white">19 май 2023</option>
               <option value="matura-2025" className="bg-slate-800 text-white">21 май 2025</option>
               <option value="matura-2025-08" className="bg-slate-800 text-white">22 август 2024</option>
+              <option value="training-2026-05" className="bg-slate-800 text-white">Тренировъчни въпроси май 2026</option>
             </select>
           </div>
           

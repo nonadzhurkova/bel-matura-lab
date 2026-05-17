@@ -9,7 +9,8 @@ export async function loadQuestions(): Promise<{questions: Question[], textsData
     '/data/matura-2023_line_by_line.json',
     '/data/matura-2023-05_line_by_line.json',
     '/data/matura-2025_line_by_line.json',
-    '/data/matura-2025-08_line_by_line.json'
+    '/data/matura-2025-08_line_by_line.json',
+    '/data/training-2026-05_line_by_line.json'
   ];
   
   for (const filePath of realMaturaFiles) {
@@ -77,7 +78,8 @@ export function filterQuestions(
         'matura-2023_line_by_line': 'matura-2023',
         'matura-2023-05_line_by_line': 'matura-2023-05',
         'matura-2025_line_by_line': 'matura-2025',
-        'matura-2025-08_line_by_line': 'matura-2025-08'
+        'matura-2025-08_line_by_line': 'matura-2025-08',
+        'training-2026-05_line_by_line': 'training-2026-05'
       };
       
       return fileKeyToMaturaFilter[fileKey || ''] === maturaFilter;
