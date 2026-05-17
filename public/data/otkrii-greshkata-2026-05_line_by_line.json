@@ -1,0 +1,1451 @@
+{
+  "metadata": {
+    "processed_date": "2026-05-17T00:00:00.000000",
+    "source": "otkrii_greshkata",
+    "exam_date": "май 2026",
+    "exam_year": "2026",
+    "exam_month": "май"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "преуспели",
+        "б": "юношестки",
+        "в": "не проумявайки",
+        "г": "въстановяване"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 2,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "военноморски",
+        "б": "юношески",
+        "в": "нъпрегнат",
+        "г": "Дебеляновски"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 3,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "двоезичие",
+        "б": "астронафт",
+        "в": "непроумявайки",
+        "г": "ще обмислиме"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 4,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пурпорен",
+        "б": "подпряният",
+        "в": "двеста годишен",
+        "г": "възстановяване"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 5,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "военно-морски",
+        "б": "бактериялен",
+        "в": "да облечат",
+        "г": "кафеви"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 6,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "безсловестност",
+        "б": "напрегнат",
+        "в": "привлякал",
+        "г": "предтекст"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 7,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "два пълнители",
+        "б": "превижда ми се",
+        "в": "дебеляновски",
+        "г": "огнеопоерен"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 8,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "чучолига",
+        "б": "канбанария",
+        "в": "напористта",
+        "г": "двуезичие"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 9,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "цигуларят виртуоз",
+        "б": "петнайстният",
+        "в": "разтеглив",
+        "г": "астронавт"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 10,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "увъглявам",
+        "б": "петнайсетият",
+        "в": "подвуомявам се",
+        "г": "формоляр"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 11,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "картогравски",
+        "б": "смръчава се",
+        "в": "растеглив",
+        "г": "упорочавам"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 12,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пенчо-славейковите",
+        "б": "шанпанско",
+        "в": "натакмени",
+        "г": "опорочавам"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 13,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Пенчо-Славейковите",
+        "б": "червоугодник",
+        "в": "безнадежноста",
+        "г": "консултански"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 14,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "недък",
+        "б": "шампанско",
+        "в": "централно-азиатски",
+        "г": "старши-сътрудник"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 15,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "радио-коментатор",
+        "б": "елиминаций",
+        "в": "натъкмени",
+        "г": "смехорий"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 16,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "поощъклял",
+        "б": "източен Кавказ",
+        "в": "недомълвки",
+        "г": "чревоугодник"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 17,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "централноазиатски",
+        "б": "предтекст",
+        "в": "съботьор",
+        "г": "безнадежността"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 18,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "жирав",
+        "б": "старши сътрудник",
+        "в": "устъклен",
+        "г": "купообразен"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 19,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "одадоха се",
+        "б": "изопъчавам",
+        "в": "радиокоментатор",
+        "г": "стратек"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 20,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "загряти",
+        "б": "остатак",
+        "в": "скъпоцености",
+        "г": "жираф"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 21,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "подпреният",
+        "б": "елиминаций",
+        "в": "саботьор",
+        "г": "устъклен"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 22,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "купообразен",
+        "б": "двестагодишен",
+        "в": "одадоха се",
+        "г": "изопъчавам"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 23,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "стратек",
+        "б": "загряти",
+        "в": "бактериален",
+        "г": "остатак"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 24,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "да облечат",
+        "б": "кафеви",
+        "в": "безсловестност",
+        "г": "да облекат"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 25,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "кафяви",
+        "б": "привлякал",
+        "в": "предтекст",
+        "г": "два пълнители"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 26,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "превижда ми се",
+        "б": "безсловесност",
+        "в": "огнеопоерен",
+        "г": "чучолига"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 27,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "канбанария",
+        "б": "напористта",
+        "в": "привлякъл",
+        "г": "цигуларят-виртуоз"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 28,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "петнайстният",
+        "б": "разтеглив",
+        "в": "увъглявам",
+        "г": "претекст"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 29,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "два пълнителя",
+        "б": "подвуомявам се",
+        "в": "формоляр",
+        "г": "картогравски"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 30,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "смръчава се",
+        "б": "привижда ми се",
+        "в": "упорочавам",
+        "г": "пенчо-славейковите"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 31,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "шанпанско",
+        "б": "натакмени",
+        "в": "огнеупорен",
+        "г": "червоугодник"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 32,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "безнадежноста",
+        "б": "консултански",
+        "в": "недък",
+        "г": "чучулига"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 33,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "камбанария",
+        "б": "централно-азиатски",
+        "в": "старши-сътрудник",
+        "г": "радио-коментатор"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 34,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "елиминаций",
+        "б": "напориста",
+        "в": "смехорий",
+        "г": "поощъклял"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 35,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "източен Кавказ",
+        "б": "недомълвки",
+        "в": "елиминации",
+        "г": "предтекст"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 36,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "съботьор",
+        "б": "жирав",
+        "в": "устъклен",
+        "г": "смехории"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 37,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пощрьклял",
+        "б": "купообразен",
+        "в": "одадоха се",
+        "г": "изопъчавам"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 38,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "стратек",
+        "б": "Източен Кавказ",
+        "в": "загряти",
+        "г": "остатак"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 39,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пурпорен",
+        "б": "подпряният",
+        "в": "недомлъвки",
+        "г": "двеста годишен"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 40,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "бактериялен",
+        "б": "да облечат",
+        "в": "кафеви",
+        "г": "претекст"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 41,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "остъклен",
+        "б": "привлякал",
+        "в": "предтекст",
+        "г": "два пълнители"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 42,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "превижда ми се",
+        "б": "саботьор",
+        "в": "огнеопоерен",
+        "г": "чучолига"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 43,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "канбанария",
+        "б": "напористта",
+        "в": "куполообразен",
+        "г": "цигуларят-виртуоз"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 44,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "петнайстният",
+        "б": "разтеглив",
+        "в": "увъглявам",
+        "г": "отдадоха се"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 45,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "изопачавам",
+        "б": "подвуомявам се",
+        "в": "формоляр",
+        "г": "картогравски"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 46,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "смръчава се",
+        "б": "стратег",
+        "в": "упорочавам",
+        "г": "пенчо-славейковите"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 47,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "шанпанско",
+        "б": "натакмени",
+        "в": "загрети",
+        "г": "червоугодник"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 48,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "безнадежноста",
+        "б": "консултански",
+        "в": "недък",
+        "г": "остатък"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 49,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "скъпоценности",
+        "б": "централно-азиатски",
+        "в": "старши-сътрудник",
+        "г": "радио-коментатор"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 50,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "елиминаций",
+        "б": "консултантски",
+        "в": "смехорий",
+        "г": "поощъклял"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 51,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "источен Кавказ",
+        "б": "недомълвки",
+        "в": "недъг",
+        "г": "предтекст"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 52,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "съботьор",
+        "б": "жирав",
+        "в": "устъклен",
+        "г": "подвоумявам се"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 53,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "формуляр",
+        "б": "купообразен",
+        "в": "одадоха се",
+        "г": "изопъчавам"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 54,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "стратек",
+        "б": "картографски",
+        "в": "загряти",
+        "г": "остатак"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 55,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пурпорен",
+        "б": "подпряният",
+        "в": "смричава се",
+        "г": "двеста годишен"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 56,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "бактериялен",
+        "б": "да облечат",
+        "в": "кафеви",
+        "г": "овъглявам"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 57,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пощрьклял",
+        "б": "привлякал",
+        "в": "предтекст",
+        "г": "два пълнители"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 58,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "превижда ми се",
+        "б": "загрети",
+        "в": "огнеопоерен",
+        "г": "чучолига"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 59,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "канбанария",
+        "б": "напористта",
+        "в": "остатък",
+        "г": "цигуларят-виртуоз"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 60,
+      "question_text": "В кой ред думата е изписана правилно?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "петнайстният",
+        "б": "разтеглив",
+        "в": "увъглявам",
+        "г": "скъпоценности"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 61,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "преуспяли",
+        "б": "юношески",
+        "в": "непроумявайки",
+        "г": "възстановяване"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 62,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "военно-морски",
+        "б": "юношестки",
+        "в": "напрегнат",
+        "г": "дебеляновски"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 63,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "двуезичие",
+        "б": "астронавт",
+        "в": "не проумявайки",
+        "г": "ще обмислим"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 64,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пурпурен",
+        "б": "подпреният",
+        "в": "двестагодишен",
+        "г": "въстановяване"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 65,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "военноморски",
+        "б": "бактериален",
+        "в": "да облекат",
+        "г": "кафяви"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 66,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "безсловесност",
+        "б": "нъпрегнат",
+        "в": "привлякъл",
+        "г": "претекст"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 67,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "два пълнителя",
+        "б": "привижда ми се",
+        "в": "Дебеляновски",
+        "г": "огнеупорен"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 68,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "чучулига",
+        "б": "камбанария",
+        "в": "напориста",
+        "г": "двоезичие"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 69,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "астронафт",
+        "б": "цигуларят виртуоз",
+        "в": "петнайсетият",
+        "г": "растеглив"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 70,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "овъглявам",
+        "б": "ще обмислиме",
+        "в": "подвоумявам се",
+        "г": "формуляр"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 71,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "картографски",
+        "б": "смрачава се",
+        "в": "пурпорен",
+        "г": "опорочавам"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 72,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Пенчо-Славейковите",
+        "б": "шампанско",
+        "в": "натъкмени",
+        "г": "подпряният"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 73,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "двеста годишен",
+        "б": "чревоугодник",
+        "в": "безнадежността",
+        "г": "консултантски"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 74,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "недъг",
+        "б": "бактериялен",
+        "в": "централноазиатски",
+        "г": "старши сътрудник"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 75,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "радиокоментатор",
+        "б": "елиминации",
+        "в": "да облечат",
+        "г": "смехории"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 76,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пощрьклял",
+        "б": "Източен Кавказ",
+        "в": "недомлъвки",
+        "г": "кафеви"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 77,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "предтекст",
+        "б": "претекст",
+        "в": "саботьор",
+        "г": "жираф"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 78,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "остъклен",
+        "б": "съботьор",
+        "в": "куполообразен",
+        "г": "отдадоха се"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 79,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "изопачавам",
+        "б": "стратег",
+        "в": "жирав",
+        "г": "загрети"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 80,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "остатък",
+        "б": "скъпоценности",
+        "в": "преуспели",
+        "г": "устъклен"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 81,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "загряти",
+        "б": "юношески",
+        "в": "непроумявайки",
+        "г": "възстановяване"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 82,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "военно-морски",
+        "б": "стратек",
+        "в": "напрегнат",
+        "г": "дебеляновски"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 83,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "двуезичие",
+        "б": "астронавт",
+        "в": "изопъчавам",
+        "г": "ще обмислим"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 84,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пурпурен",
+        "б": "подпреният",
+        "в": "двестагодишен",
+        "г": "остатак"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 85,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "скъпоценосте",
+        "б": "бактериален",
+        "в": "да облекат",
+        "г": "кафяви"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 86,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "безсловесност",
+        "б": "смехорий",
+        "в": "привлякъл",
+        "г": "претекст"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 87,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "два пълнителя",
+        "б": "привижда ми се",
+        "в": "поощъклял",
+        "г": "огнеупорен"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 88,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "чучулига",
+        "б": "камбанария",
+        "в": "напориста",
+        "г": "елиминаций"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 89,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "цигуларят-виртуоз",
+        "б": "цигуларят виртуоз",
+        "в": "петнайсетият",
+        "г": "растеглив"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 90,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "овъглявам",
+        "б": "предтекст",
+        "в": "подвоумявам се",
+        "г": "формуляр"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 91,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "картографски",
+        "б": "смрачава се",
+        "в": "напористта",
+        "г": "опорочавам"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 92,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Пенчо-Славейковите",
+        "б": "шампанско",
+        "в": "натъкмени",
+        "г": "два пълнители"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 93,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "превижда ми се",
+        "б": "чревоугодник",
+        "в": "безнадежността",
+        "г": "консултантски"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 94,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "недъг",
+        "б": "огнеопоерен",
+        "в": "централноазиатски",
+        "г": "старши сътрудник"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 95,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "радиокоментатор",
+        "б": "елиминации",
+        "в": "канбанария",
+        "г": "смехории"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 96,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пощрьклял",
+        "б": "Източен Кавказ",
+        "в": "недомлъвки",
+        "г": "чучолига"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 97,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "петнайстният",
+        "б": "претекст",
+        "в": "саботьор",
+        "г": "жираф"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 98,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "остъклен",
+        "б": "разтеглив",
+        "в": "куполообразен",
+        "г": "отдадоха се"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 99,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "изопачавам",
+        "б": "стратег",
+        "в": "увъглявам",
+        "г": "загрети"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 100,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "остатък",
+        "б": "скъпоценности",
+        "в": "преуспели",
+        "г": "подвуомявам се"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 101,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "формоляр",
+        "б": "юношески",
+        "в": "непроумявайки",
+        "г": "възстановяване"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 102,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "военно-морски",
+        "б": "картогравски",
+        "в": "напрегнат",
+        "г": "дебеляновски"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 103,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "двуезичие",
+        "б": "астронавт",
+        "в": "смръчава се",
+        "г": "ще обмислим"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 104,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пурпурен",
+        "б": "подпреният",
+        "в": "двестагодишен",
+        "г": "упорочавам"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 105,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пенчо-славейковите",
+        "б": "бактериален",
+        "в": "да облекат",
+        "г": "кафяви"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 106,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "безсловесност",
+        "б": "безнадежноста",
+        "в": "привлякъл",
+        "г": "претекст"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 107,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "два пълнителя",
+        "б": "привижда ми се",
+        "в": "консултански",
+        "г": "огнеупорен"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 108,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "чучулига",
+        "б": "камбанария",
+        "в": "напориста",
+        "г": "недък"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 109,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "централно-азиатски",
+        "б": "цигуларят виртуоз",
+        "в": "петнайсетият",
+        "г": "растеглив"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 110,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "овъглявам",
+        "б": "старши-сътрудник",
+        "в": "подвоумявам се",
+        "г": "формуляр"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 111,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "картографски",
+        "б": "смрачава се",
+        "в": "радио-коментатор",
+        "г": "опорочавам"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 112,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "Пенчо-Славейковите",
+        "б": "шампанско",
+        "в": "натъкмени",
+        "г": "източен Кавказ"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 113,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "натакмени",
+        "б": "чревоугодник",
+        "в": "безнадежността",
+        "г": "консултантски"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 114,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "недъг",
+        "б": "недомълвки",
+        "в": "централноазиатски",
+        "г": "старши сътрудник"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 115,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "радиокоментатор",
+        "б": "елиминации",
+        "в": "съботьор",
+        "г": "смехории"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 116,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "пощрьклял",
+        "б": "Източен Кавказ",
+        "в": "недомлъвки",
+        "г": "купообразен"
+      },
+      "correct_answer": "Г"
+    },
+    {
+      "question_number": 117,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "одадоха се",
+        "б": "претекст",
+        "в": "саботьор",
+        "г": "жираф"
+      },
+      "correct_answer": "А"
+    },
+    {
+      "question_number": 118,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "остъклен",
+        "б": "изопъчавам",
+        "в": "куполообразен",
+        "г": "отдадоха се"
+      },
+      "correct_answer": "Б"
+    },
+    {
+      "question_number": 119,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "изопачавам",
+        "б": "стратег",
+        "в": "шанпанско",
+        "г": "загрети"
+      },
+      "correct_answer": "В"
+    },
+    {
+      "question_number": 120,
+      "question_text": "В кой ред думата е изписана ГРЕШНО?",
+      "question_type": "multiple_choice",
+      "options": {
+        "а": "остатък",
+        "б": "скъпоцености",
+        "в": "преуспели",
+        "г": "претекст"
+      },
+      "correct_answer": "Б"
+    }
+  ]
+}
